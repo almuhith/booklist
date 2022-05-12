@@ -140,7 +140,7 @@ table tbody{
 #btn
 {
     cursor: poinger;
-    color: red;
+    color: black;
     border: none;
     outline: none;
     background: none;
@@ -150,5 +150,5 @@ table tbody{
 }
 #btn:hover
 {
-    font-size: 19px;
+    color: red;
 }

@@ -28,7 +28,7 @@ button.addEventListener('click', (e)=> {
         const closeX = document.createElement('td');
         const button = document.createElement('button');
         button.setAttribute('id', 'btn');
-        button.innerHTML = 'X';
+        button.innerHTML = '<i class="fa-solid fa-trash-can"></i>';
         closeX.appendChild(button);
         newRow.appendChild(closeX);
         
