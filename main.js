@@ -7,6 +7,7 @@ const addlist = document.querySelector('#table-list')
 const action = document.querySelector('#remove')
 
 button.addEventListener('click', (e)=> {
+   
     e.preventDefault()
     if(title.value == '' || author.value == '' || year.value == '') {
         alert('Please Enter the value!')
@@ -40,6 +41,8 @@ button.addEventListener('click', (e)=> {
             closeX.parentElement.style.display = 'none';
         })
     }
+
+    title.value = ''
+    author.value = ''
+    year.value = ''
 })
-
-
