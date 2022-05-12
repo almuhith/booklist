@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book_List</title>
+    <link rel="icon" type="image" href="book.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font awesome/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="heading">
+            <span><img src="book_2.png" alt="Book_Image"></span>
+            <h2>Book List <span>App</span></h2>
+        </div>
+        <div class="bx"></div> 
+        <form action="" id="form">
+            <h4>Title</h4>
+            <input id="title" type="text" placeholder="Enter the Title" value="">
+            <h4>Author</h4>
+            <input id="author" type="text" placeholder="Enter the Auther Name" value="">
+            <h4>#ISBN</h4>
+            <input id="year" type="text" placeholder="Enter #ISBN" value="" maxlength = "10" minlength = "2"> 
+            <br>
+            <input type="submit"  id="button" class="btn btn-submit">
+        </form>
+
+        <div id="outlput">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>#ISBN</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="table-list">
+                    
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script>
+        
+    </script>
+    <script src="main.js"></script>
+    <script src="font awesome/css/all.min.js"></script>
+    <script src="font awesome/css/brands.min.js"></script>
+</body>
+</html>

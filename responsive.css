@@ -1,0 +1,253 @@
+
+@media (max-width: 576px) {
+
+    .container{
+        padding: 10px;
+    }
+    #heading img{
+        height: 20px;
+    }
+    #heading h2{
+        font-weight:600;
+        font-size: 20px;
+        color: white;
+    }
+
+
+    .bx{
+        height: 3px;
+        width: 180px;
+        background: #273c75;
+        margin: auto;
+        border-radius: 70px;
+        margin-bottom: 50px;
+    }
+
+
+    form h4
+    {
+        margin-bottom: 10px;
+        color: rgb(214, 214, 214);
+        margin-top: 20px;
+        letter-spacing: 3px;
+        font-size: 16px;
+    }
+    form input{
+        outline: none;
+        border: 1px solid #636e72;
+        padding: 3px 50px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        width: 300px;
+        background-color: #dcdde1;
+        color: rgb(121, 121, 121);
+    }
+
+    form input::placeholder{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+        letter-spacing: normal;
+        text-align: center;
+    }
+    form .btn
+    {
+        display: inline block;
+        background: #192a56;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 10px 0px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    table
+    {
+        width: 300px;
+    }
+    table thead tr
+    {
+        background: #636e72;
+        color: white;
+        padding: 5px 0px;
+        font-size: 12px;
+    }
+    table tr th,td
+    {
+        cursor: pointer;
+        padding: 5px 0px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+@media (min-width: 576px) {
+
+    .container{
+        padding: 10px;
+    }
+    #heading img{
+        height: 20px;
+    }
+    #heading h2{
+        font-weight:600;
+        font-size: 20px;
+        color: white;
+    }
+
+
+    .bx{
+        height: 3px;
+        width: 180px;
+        background: #273c75;
+        margin: auto;
+        border-radius: 70px;
+        margin-bottom: 50px;
+    }
+
+
+    form h4
+    {
+        margin-bottom: 10px;
+        color: rgb(214, 214, 214);
+        margin-top: 20px;
+        letter-spacing: 3px;
+        font-size: 16px;
+    }
+    form input{
+        outline: none;
+        border: 1px solid #636e72;
+        padding: 3px 50px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        width: 300px;
+        background-color: #dcdde1;
+        color: rgb(121, 121, 121);
+    }
+
+    form input::placeholder{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+        letter-spacing: normal;
+        text-align: center;
+    }
+    form .btn
+    {
+        display: inline block;
+        background: #192a56;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 10px 0px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    table thead tr
+    {
+        background: #636e72;
+        color: white;
+        padding: 5px 0px;
+        font-size: 12px;
+    }
+    table tr th,td
+    {
+        cursor: pointer;
+        padding: 5px 0px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container{
+        padding: 10px;
+    }
+    #heading img{
+        height: 40px;
+    }
+    #heading h2{
+        font-weight:600;
+        font-size: 50px;
+        color: white;
+    }
+
+
+    .bx{
+        height: 3px;
+        width: 400px;
+        background: #273c75;
+        margin: auto;
+        border-radius: 70px;
+        margin-bottom: 50px;
+    }
+    form h4
+    {
+        margin-bottom: 10px;
+        color: rgb(214, 214, 214);
+        margin-top: 20px;
+        letter-spacing: 3px;
+        font-size: 18px;
+    }
+    form input{
+        outline: none;
+        border: 1px solid #636e72;
+        padding: 10px 50px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        width: 500px;
+        background-color: #dcdde1;
+        color: rgb(121, 121, 121);
+    }
+
+    form input::placeholder{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        letter-spacing: normal;
+        text-align: center;
+    }
+    form .btn
+    {
+        display: inline block;
+        background: #192a56;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 15px 0px;
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    table thead tr
+    {
+        background: #636e72;
+        color: white;
+        padding: 5px 0px;
+        font-size: 16px;
+    }
+    table tr th,td
+    {
+        cursor: pointer;
+        padding: 5px 0px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+}
